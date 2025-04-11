@@ -33,39 +33,23 @@ This is a web-based application that detects whether a given phone number is **s
 ### 1. Clone the repo
 
 ### 2. Set up virtual environment (optional but recommended)
-bash
+'''bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # on Windows: venv\Scripts\activate
 
 ### 3. Install dependencies
-bash
+'''bash
 Copy
 Edit
 pip install -r requirements.txt
 ### 4. Run the app
-bash
+'''bash
 Copy
 Edit
 python app.py
 Visit http://127.0.0.1:5000/ in your browser.
-
-📂 Project Structure
-cpp
-Copy
-Edit
-spam-number-detector/
-│
-├── app.py
-├── requirements.txt
-├── templates/
-│   ├── index.html
-│   └── reports.html
-├── static/ (optional for styles/images)
-└── .gitignore
-📊 Sample Dataset
-If you want to start with some pre-loaded spam numbers, you can import spam_dataset.csv into MongoDB or use the provided Python script.
 
 ```bash
 git clone https://github.com/yourusername/spam-number-detector.git
