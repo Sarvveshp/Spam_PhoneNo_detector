@@ -33,17 +33,17 @@ This is a web-based application that detects whether a given phone number is **s
 ### 1. Clone the repo
 
 ### 2. Set up virtual environment (optional but recommended)
-'''bash
+<pre> '''bash
 python -m venv venv
 source venv/bin/activate  
-# on Windows: venv\Scripts\activate '''
+# on Windows: venv\Scripts\activate '''</pre>
 
 ### 3. Install dependencies
-'''bash
-pip install -r requirements.txt '''
+<pre> '''bash
+pip install -r requirements.txt ''' </pre>
 ### 4. Run the app
-'''bash
-python app.py'''
+<pre>'''bash
+python app.py''' </pre>
 Visit http://127.0.0.1:5000/ in your browser.
 
 ```bash
